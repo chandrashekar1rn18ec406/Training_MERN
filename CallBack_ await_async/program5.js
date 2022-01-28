@@ -6,13 +6,9 @@ async function getObject(){
     const response = await fetch ('https://retoolapi.dev/BUCPSc/posts');
     const posts = await response.json().then(data =>{
        for(let i =0 ; i< data.length;i ++){
-        console.log(data[i].title)
+            console.log(data[i].title)
        }
-        
-
     });
-     ;
-   
 };
 
 getObject();
