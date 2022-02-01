@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7.12.4/babel.js"></script>
+<style>
+    .bg-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        background-color: black;
+        color: white;
+        border-radius: 10em;
+        padding: 5em;
+
+    }
+    
+</style>
+ </head>
+  <body>
+      <div id="root" class="bg-container">
+
+      </div>
+
+      <script type="text/babel">
+      function getAlert(){
+          alert("Clicked!")
+      }
+        let task4=document.getElementById("root")
+        let button=<button onClick={getAlert} className="button">click</button>
+        ReactDOM.render(button,task4)
+            
+      </script>
+     
+    
+    
+  </body>
+</html>
