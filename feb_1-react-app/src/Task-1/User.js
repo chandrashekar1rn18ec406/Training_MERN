@@ -24,9 +24,9 @@ onBtnClick=()=>{
         
 
         return(
-            <tr className="trEl">
-                <td className="trEl" >User Id:{id}</td>
-                <td className="trEl"><button onClick={this.onBtnClick} style={myStyle}>Check Details</button></td>
+            <tr className="td_data">
+                <td className="td_data" >User Id:{id}</td>
+                <td className="td_data"><button onClick={this.onBtnClick} style={myStyle}>Check Details</button></td>
             </tr>
         )
     }

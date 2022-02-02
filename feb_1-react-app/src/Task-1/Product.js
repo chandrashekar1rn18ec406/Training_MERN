@@ -23,10 +23,10 @@ onBtnClick=()=>{
         };
     
         return(
-            <tr className="trEl" style={{marginTop:"20px"}}>
+            <tr style={{marginTop:"20px"}}>
                
-                <td className="trEl"  style={{marginTop:"20px"}} >Product Id:{id}</td>
-                <td className="trEl"><button onClick={this.onBtnClick}  style={mystyle}>Check Details</button></td>
+                <td className="td_data"  style={{marginTop:"20px"}} >Product Id:{id}</td>
+                <td className="td_data"><button onClick={this.onBtnClick}  style={mystyle}>Check Details</button></td>
             </tr>
         )
     }

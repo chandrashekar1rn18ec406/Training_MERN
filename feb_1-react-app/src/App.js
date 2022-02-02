@@ -34,14 +34,14 @@ class App extends React.Component{
     const{product}=this.state
     console.log(users)
     return(
-      <div className="bg-container">
+      <div >
         <h1 style={{textAlign:'center',color:'#4d6c7d'}}>This is User Data</h1>
-        <table className="table" style={{marginTop:'30px',  marginLeft: "auto",
+        <table  style={{marginTop:'30px',  marginLeft: "auto",
     marginRight: "auto"
    }}>
-          <tr className="trEl">
-            <th className="trEl">User Id</th>
-            <th className="trEl">Get details</th>
+          <tr>
+            <th>User Id</th>
+            <th>Get details</th>
           </tr>
          
         {users.map((eachuser)=>
@@ -49,14 +49,14 @@ class App extends React.Component{
           
         </table>
         <h1 style={{textAlign:'center' ,color:"#aaa432"}}>This is Product Data</h1>
-        <table className="table" style={{marginTop:'30px',  marginLeft: "auto",
+        <table style={{marginTop:'30px',  marginLeft: "auto",
     marginRight: "auto"}}>
 
-          <tr className="trEl">
-            <th className="trEl">Product Id</th>
+          <tr>
+            <th>Product Id</th>
             
             
-            <th className="trEl">Get details</th>
+            <th>Get details</th>
             
           </tr>
          

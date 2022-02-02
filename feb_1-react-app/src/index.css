@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.trEl {
+.td_data {
   border:1px solid black;
   
 }
@@ -21,7 +21,7 @@ code {
   list-style-type: none;
 }
 
-.trEl {
+.td_data {
   border:1px solid black;
   
 }
