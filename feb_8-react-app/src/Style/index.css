@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    padding: 20px;
+    background-color: #ee6677;
+    overflow: auto;
+    list-style: none;
+    
+    margin: 10px;
+    justify-content: right;
+    cursor: pointer;
+    
+}
+.navbar li{
+    display: block;
+    float: right;
+    margin-left: 20px;
+    width: 120px;
+    font-family: serif;
+    color: burlywood;
+}
+
+.navbar li:hover {
+	background-color:#FFF;
+	color:#fff;
+}
