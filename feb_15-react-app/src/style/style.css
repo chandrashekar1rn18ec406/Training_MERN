@@ -1,0 +1,10 @@
+.form {
+  /* color: red; */
+  width: 100%;
+  padding: 12px 20px;
+  margin: 15px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: content-box;
+}
