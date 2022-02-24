@@ -1,0 +1,21 @@
+.App-head,
+.App-title {
+  padding: 20px;
+  text-align: center;
+  background: #8493ab;
+}
+
+.filter input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 4rem 10rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.groceri ul li {
+  padding: 20px;
+  
+}
